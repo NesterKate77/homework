@@ -41,7 +41,7 @@ result_mp_s_root = pow(item_2,0.5)
 # 18. Вывести result_mp_s_root в консоль.
 print(result_mp_s_root)
 # 19. Присвоить переменной item_1 odd значение.
-item_1_odd = 11
+item_1_odd = 10
 # 20. Присвоить переменной item_2 even значение.
 item_2_even = 3
 # 21. Создать переменную result_division в которой вы разделите item_1_odd на item_2_even.
@@ -53,3 +53,23 @@ print(result_division)
 result_m_floor = math.floor(result_division)
 # 24. Вывести result_m_floor в консоль.
 print(result_m_floor)
+# 25. Создать переменную result_m_ceil и result_division округлить до ближайшего
+# целого большего чем result_division.
+result_m_ceil = math.ceil(result_division)
+# 26. Вывести result_m_ceil в консоль.
+print(result_m_ceil)
+# 27. Создать переменную result_int и result_division округлить до ближайшего целого
+# через явное приведение.
+result_int = int(result_division)
+# 28.Вывести result_int в консоль.
+print(result_int)
+# 29. Создать переменную result_no_division_loss в которой вы разделите
+# item_1_odd на item_2_even без остатка.
+result_no_division_loss = item_1_odd // item_2_even
+# 30. Вывести result_no_division_loss в консоль.
+print(result_no_division_loss)
+ # 31. Создать переменную result_division_loss в которой вы найдёте остаток от деления
+# item_1_odd на item_2_even.
+result_division_loss = item_1_odd % item_2_even
+ # 32. Вывести result_division_loss в консоль.
+print(result_division_loss)
